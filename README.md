@@ -23,13 +23,11 @@ npx openskills add vishalx360/nano-banana-skill
 ## Setup
 
 ```bash
+# Install Python dependencies (run from anywhere)
+bash <skill-dir>/scripts/setup.sh
+
 # Set your API key
 export GEMINI_API_KEY="your-api-key"
-
-# Install Python dependencies
-cd <skill-dir>/scripts
-python3 -m venv venv
-./venv/bin/pip install -r requirements.txt
 ```
 
 ## What It Does

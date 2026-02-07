@@ -9,15 +9,15 @@ Image generation, editing, and restoration powered by Google Gemini.
 
 ## Setup (One-Time)
 
-Before first use, set up the Python environment and API key:
+Run the setup script to install dependencies automatically:
 
 ```bash
-# 1. Create virtual environment and install dependencies
-cd <skill-dir>/scripts
-python3 -m venv venv
-./venv/bin/pip install -r requirements.txt
+bash <skill-dir>/scripts/setup.sh
+```
 
-# 2. Set API key (get one at https://aistudio.google.com/apikey)
+Then set an API key (get one at https://aistudio.google.com/apikey):
+
+```bash
 export GEMINI_API_KEY="your-api-key"
 ```
 
